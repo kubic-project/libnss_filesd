@@ -24,4 +24,4 @@ TESTS = $(check_PROGRAMS)
 libnss_filesd_la_LDFLAGS = -version-info 2:0:0 \
 	-Wl,--version-script=$(srcdir)/libnss_filesd.map
 libnss_filesd_la_SOURCES = files-grp.c files-initgroups.c files-pwd.c \
-	files-spwd.c
+	files-spwd.c files-sgrp.c # files-rpc.c files-service.c
