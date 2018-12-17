@@ -8,9 +8,9 @@ the alternate location `/etc/passwd.d` and `/etc/group.d`.
 As of version 2.27 the following directories will be searched
 by nss_filesd:
 
-- `/usr/etc/group.d`
-- `/usr/etc/passwd.d`
-- `/usr/etc/shadow.d`
+- `/etc/group.d`
+- `/etc/passwd.d`
+- `/etc/shadow.d`
 
 The sources are copied from the nss_files modules from
 [glibc2](http://www.gnu.org/software/libc/) and adjusted for
